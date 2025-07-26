@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Makes it responsive -->
+    <title>Foodpanda Clone</title>
+
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font: Montserrat -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700,400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header / Navigation bar -->
+    <header>
+        <div class="container header-flex">
+            <!-- Logo image -->
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRACj_RyFxw4zcT4urDPXMQtZweDm3n2gnFg&s" alt="Foodpanda Logo" class="logo">
+            
+           <!-- Navigation links -->
+<nav>
+    <a href="index.html">Home</a>
+    <a href="#">Restaurants</a>
+    <a href="#">Offers</a>
+    <a href="login.html">Login</a>        <!-- Fixed -->
+    <a href="signup.html" class="signup-btn">Sign Up</a> <!-- Fixed -->
+</nav>
+
+        </div>
+    </header>
+
+    <!-- Hero section with heading, paragraph, search form and image -->
+    <section class="hero">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <!-- Main headline -->
+                <h1>Order food and groceries online</h1>
+
+                <!-- Description -->
+                <p>Discover the best restaurants &amp; shops near you. Fast delivery, great offers, and easy payment.</p>
+
+                <!-- Search bar -->
+                <form class="search-form">
+                    <input type="text" placeholder="Enter your delivery location">
+                    <button type="submit">Find Food</button>
+                </form>
+
+                <!-- Popular food category buttons -->
+                <div class="popular-tags">
+                    <span>Popular: </span>
+                    <button>Burger</button>
+                    <button>Pizza</button>
+                    <button>Sushi</button>
+                    <button>Groceries</button>
+                </div>
+            </div>
+
+            <!-- Right side image in hero section -->
+            <img class="hero-img" src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=500&q=80" alt="Delivery">
+        </div>
+    </section>
+
+    <!-- Restaurant listing section -->
+    <section class="restaurants">
+        <div class="container">
+            <!-- Section heading -->
+            <h2>Popular Restaurants</h2>
+
+            <!-- All restaurant cards go inside this div -->
+            <div class="restaurant-list">
+
+                <!-- Restaurant card 1 -->
+                <a href="#" class="restaurant-card-link">
+                <div class="restaurant-card">
+                    <div class="card-img-wrap">
+                        <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=400&q=80" alt="Burger House restaurant">
+                        <span class="badge">20% off</span>
+                    </div>
+                    <div class="card-info">
+                        <h3>🍔 Burger House</h3>
+                        <p>Burgers, Fast Food</p>
+                        <div class="card-meta">
+                            <span class="rating"><span>★</span> 4.5</span>
+                            <span class="dot">·</span>
+                            <span class="time">25 min</span>
+                        </div>
+                        <button class="view-menu-btn">View Menu</button>
+                    </div>
+                </div>
+                </a>
+
+                <!-- Restaurant card 2 -->
+                <div class="restaurant-card">
+                    <div class="card-img-wrap">
+                        <img src="https://images.unsplash.com/photo-1523987355523-c7b5b0723c7e?auto=format&fit=crop&w=400&q=80" alt="Pizza Palace restaurant">
+                        <span class="badge">10% off</span>
+                    </div>
+                    <div class="card-info">
+                        <h3>Pizza Palace</h3>
+                        <p>Pizza, Italian</p>
+                        <div class="card-meta">
+                            <span class="rating"><span>★</span> 4.7</span>
+                            <span class="dot">·</span>
+                            <span class="time">30 min</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Restaurant card 3 -->
+                <div class="restaurant-card">
+                    <div class="card-img-wrap">
+                        <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=400&q=80" alt="Sushi World restaurant">
+                        <span class="badge">15% off</span>
+                    </div>
+                    <div class="card-info">
+                        <h3>Sushi World</h3>
+                        <p>Sushi, Japanese</p>
+                        <div class="card-meta">
+                            <span class="rating"><span>★</span> 4.8</span>
+                            <span class="dot">·</span>
+                            <span class="time">20 min</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Extra restaurant card 4 -->
+                <div class="restaurant-card">
+                    <div class="card-img-wrap">
+                        <img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092?auto=format&fit=crop&w=400&q=80" alt="Taco Town restaurant">
+                        <span class="badge">25% off</span>
+                    </div>
+                    <div class="card-info">
+                        <h3>Taco Town</h3>
+                        <p>Mexican, Fast Food</p>
+                        <div class="card-meta">
+                            <span class="rating"><span>★</span> 4.6</span>
+                            <span class="dot">·</span>
+                            <span class="time">22 min</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Extra restaurant card 5 -->
+                <div class="restaurant-card">
+                    <div class="card-img-wrap">
+                        <img src="https://images.unsplash.com/photo-1525610553991-2bede1a236e2?auto=format&fit=crop&w=400&q=80" alt="Pasta Point restaurant">
+                        <span class="badge">30% off</span>
+                    </div>
+                    <div class="card-info">
+                        <h3>Pasta Point</h3>
+                        <p>Italian, Pasta</p>
+                        <div class="card-meta">
+                            <span class="rating"><span>★</span> 4.4</span>
+                            <span class="dot">·</span>
+                            <span class="time">28 min</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Extra restaurant card 6 -->
+                <div class="restaurant-card">
+                    <div class="card-img-wrap">
+                        <img src="https://images.unsplash.com/photo-1605478759809-49c27d2fc5f3?auto=format&fit=crop&w=400&q=80" alt="Curry Corner restaurant">
+                        <span class="badge">Free Delivery</span>
+                    </div>
+                    <div class="card-info">
+                        <h3>Curry Corner</h3>
+                        <p>Indian, Curry</p>
+                        <div class="card-meta">
+                            <span class="rating"><span>★</span> 4.9</span>
+                            <span class="dot">·</span>
+                            <span class="time">26 min</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div> <!-- End of restaurant-list -->
+        </div> <!-- End of container -->
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Foodpanda Clone. For demo purposes only.</p>
+        </div>
+    </footer>
+</body>
+</html>
